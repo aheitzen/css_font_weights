@@ -1,3 +1,95 @@
-body {
-	background-color: pink;
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+
+:root {
+	--font-family: 'Lato', sans-serif;
+	--font-color: #fff;
 }
+
+html, body {
+	background-color: #2EB7FC;
+	border: solid 10px white;
+ 	height: 100%;
+	width: 100%;
+	/*position: fixed;*/
+}
+
+.row {
+	margin-top: 20px;
+}
+
+h1#title.h1 {
+	font-family: 'Abril Fatface', cursive;
+	text-transform: uppercase;
+	margin: 0 auto;
+	color: var(--font-color);
+}
+
+h1#normal.h1 {
+	font-family: var(--font-family);
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0 auto;
+	color: var(--font-color);
+}
+
+
+h1#one-hundred.h1 {
+	font-family: var(--font-family);
+	font-weight: 100;
+	margin: 0 auto;
+	color: var(--font-color);
+}
+
+
+h1#three-hundred.h1 {
+	font-family: var(--font-family);
+	font-weight: 300;
+	margin: 0 auto;
+	color: var(--font-color);
+}
+
+h1#four-hundred.h1 {
+	font-family: var(--font-family);
+	font-weight: 400;
+	margin: 0 auto;
+	color: var(--font-color);
+}
+
+h1#five-hundred.h1 {
+	font-family: var(--font-family);
+	font-weight: 500;
+	margin: 0 auto;
+	color: var(--font-color);
+}
+
+h1#six-hundred.h1 {
+	font-family: var(--font-family);
+	font-weight: 600;
+	margin: 0 auto;
+	color: var(--font-color);
+}
+
+h1#seven-hundred.h1 {
+	font-family: var(--font-family);
+	font-weight: 700;
+	margin: 0 auto;
+	color: var(--font-color);
+}
+
+h1#eight-hundred.h1 {
+	font-family: var(--font-family);
+	font-weight: 800;
+	margin: 0 auto;
+	color: var(--font-color);
+}
+
+h1#boldest.h1 {
+	font-family: var(--font-family);
+	font-weight: 900;
+	margin: 0 auto;
+	text-transform: uppercase;
+	color: var(--font-color);
+}
+
